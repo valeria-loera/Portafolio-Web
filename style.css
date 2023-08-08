@@ -3,6 +3,7 @@
 .navbar {
   padding: 2rem;
   background-color: #FAFFFD;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .navbar-collapse {
@@ -49,6 +50,8 @@ h1 {
 .seccion-descripcion {
   font-size: 1.2rem;
   color: #584e4e;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px
 }
 
 .seccion-texto {
@@ -82,8 +85,7 @@ h1 {
 }
 
 .hero-imagen-desarrollador {
-  width: 200px;
-  height: 200px;
+  width: 400px;
   margin: 20px;
 }
 
@@ -103,6 +105,15 @@ h1 {
   max-width: 600px;
   text-align: center;
 }
+.img-fluid{
+    width: 300px;
+    margin-right: 20px;
+}
+
+.img-fluida{
+  width: 350px;
+}
+
 
 /* Experiencia */
 
@@ -154,15 +165,16 @@ h1 {
 
 .proyectos-recientes {
   padding: 40px;
+  background-color: #6c9a8b;
 }
 
 .proyectos-recientes img {
-  height: 100%;
-  width: 100%;
-  padding: 10px;
-  border-radius: 10px;
-  display: block;
-  transition: all 0.2s ease;
+  height: 250px;
+  padding: 3px;
+  border-radius: 12px;
+  display: flex;
+  transition: all .2s ease;
+  align-items: center;
 }
 
 .proyectos-contenedor {
@@ -206,7 +218,26 @@ h1 {
   color: black;
   font-size: 60px;
   margin: 10px;
+} 
+
+
+
+.proyectos_nom{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
 }
+
+.seccion-descripciona{
+  font-size: 1.2rem;
+  color: #FAFFFD;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px
+}
+
+.btn-light{
+  margin-top: 50px;
+}
+
 
 
 /* Testimonios */
@@ -233,8 +264,8 @@ h1 {
 }
 
 .testimonio-imagen {
-  height: 150px;
   width: 150px;
+  
   margin: 10px 10px 20px 10px;
 }
 
@@ -242,12 +273,13 @@ h1 {
   max-width: 70%;
   font-size: 20px;
   text-align: center;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .testimonio-info {
   font-weight: bold;
   text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .testimonio-info p {
@@ -365,7 +397,7 @@ footer {
 
 .derechos-de-autor {
   font-size: 15px;
-  color: #aeaeae;
+  color: #FAFFFD;
   padding: 20px;
 }
 
@@ -374,10 +406,12 @@ footer {
 @media screen and (max-width: 400px) {
   .overlay p {
     font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   .overlay i {
     font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 }
 
