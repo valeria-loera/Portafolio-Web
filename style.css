@@ -2,7 +2,7 @@
 
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  background-color: #FAFFFD;
 }
 
 .navbar-collapse {
@@ -21,23 +21,29 @@ section {
 
 h1 {
   font-size: 2.5rem;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: 'Abril Fatface', cursive;
+  color: #342E37;
+}
+
+.header_meca{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #E29578;
 }
 
 .seccion-oscura {
   color: white;
-  background-color: #1b1b32;
+  background-color: #6C9A8B;
 }
 
 .seccion-clara {
   color: black;
-  background-color: white;
+  background-color: #FAFFFD;
 }
 
 .seccion-titulo {
   font-size: 2rem;
   padding: 15px 0;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .seccion-descripcion {
@@ -47,6 +53,7 @@ h1 {
 
 .seccion-texto {
   font-size: 1.2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .btn-info {
@@ -65,7 +72,7 @@ h1 {
 /* Seccion Hero */
 
 .hero {
-  background-color: #f5f6f7;
+  background-color: #FAFFFD;
   min-height: 450px;
   text-align: center;
 }
@@ -115,18 +122,19 @@ h1 {
 
 .experiencia .columna:hover {
   color: white;
-  background-color: #1b1b32;
+  background-color: #E29578;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
-  background-color: #0a0a23;
+  color: #143109;
+  background-color: #FAFFFD;
   padding: 8px 19px;
   border-radius: 50%;
 }
 
 .experiencia-titulo {
+  font-family: 'Abril Fatface', cursive;
   font-size: 25px;
   font-weight: bold;
   margin: 10px 0;
@@ -265,7 +273,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background-color: #E29578;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -279,6 +287,7 @@ h1 {
 .contacto .descripcion {
   color: white;
   font-size: 1.2rem;
+  
 }
 
 .contacto button {
